@@ -9,7 +9,7 @@
         <!-- laravel CRUD token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="{{ asset('vendor/imageupload/assets/img/favicon/favicon.ico') }}" />
+        <link rel="icon" type="image/x-icon" href="{{ asset('vendor/imageupload/img/favicon/favicon.ico') }}" />
 
 
         <!-- ? PROD Only: Google Tag Manager (Default ThemeSelection: GTM-5DDHKGP, PixInvent: GTM-5J3LMKC) -->
@@ -32,7 +32,7 @@
         <!-- End Google Tag Manager -->
 
         <!-- Favicon -->
-        {{-- <link rel="icon" type="image/x-icon" href="{{ asset('vendor/imageupload/assets/img/favicon/favicon.ico') }}" /> --}}
+        {{-- <link rel="icon" type="image/x-icon" href="{{ asset('vendor/imageupload/img/favicon/favicon.ico') }}" /> --}}
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,60 +48,60 @@
 
 
         <!-- Icons -->
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/fonts/fontawesome.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/fonts/tabler-icons.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/fonts/flag-icons.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/fonts/fontawesome.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/fonts/tabler-icons.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/fonts/flag-icons.css') }}" />
 
         <!-- Core CSS -->
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/css/rtl/core.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/css/rtl/theme-default.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/css/demo.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/css/rtl/core.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/css/rtl/theme-default.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/css/demo.css') }}" />
 
         <!-- Vendors CSS -->
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/node-waves/node-waves.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/typeahead-js/typeahead.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/apex-charts/apex-charts.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/swiper/swiper.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css') }}">
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/perfect-scrollbar/perfect-scrollbar.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/node-waves/node-waves.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/typeahead-js/typeahead.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/apex-charts/apex-charts.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/swiper/swiper.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/datatables-bs5/datatables.bootstrap5.css') }}">
         <link rel="stylesheet"
-            href="{{ asset('vendor/imageupload/assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css') }}">
+            href="{{ asset('vendor/imageupload/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css') }}">
         <link rel="stylesheet"
-            href="{{ asset('vendor/imageupload/assets/vendor/libs/datatables-checkboxes-jquery/datatables.checkboxes.css') }}">
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/datatables-buttons-bs5/buttons.bootstrap5.css') }}">
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/animate-css/animate.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/sweetalert2/sweetalert2.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/select2/select2.css') }}" />
+            href="{{ asset('vendor/imageupload/vendor/libs/datatables-checkboxes-jquery/datatables.checkboxes.css') }}">
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/datatables-buttons-bs5/buttons.bootstrap5.css') }}">
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/animate-css/animate.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/sweetalert2/sweetalert2.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/select2/select2.css') }}" />
         <link rel="stylesheet"
-            href="{{ asset('vendor/imageupload/assets/vendor/libs/formvalidation/dist/css/formValidation.min.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/css/pages/page-user-view.css') }}" />
+            href="{{ asset('vendor/imageupload/vendor/libs/formvalidation/dist/css/formValidation.min.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/css/pages/page-user-view.css') }}" />
 
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/bootstrap-select/bootstrap-select.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/flatpickr/flatpickr.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/tagify/tagify.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/bootstrap-maxlength/bootstrap-maxlength.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/toastr/toastr.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/jstree/jstree.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/quill/typography.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/quill/katex.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/quill/editor.css') }}" />
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/libs/dropzone/dropzone.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/bootstrap-select/bootstrap-select.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/flatpickr/flatpickr.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/tagify/tagify.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/bootstrap-maxlength/bootstrap-maxlength.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/toastr/toastr.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/jstree/jstree.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/quill/typography.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/quill/katex.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/quill/editor.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/libs/dropzone/dropzone.css') }}" />
 
         <!-- Core CSS -->
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/css/custom.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/css/custom.css') }}" />
 
         <!-- Page CSS -->
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/css/pages/page-auth.css') }}">
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/css/pages/page-auth.css') }}">
 
-        <link rel="stylesheet" href="{{ asset('vendor/imageupload/assets/vendor/css/pages/cards-advance.css') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/imageupload/vendor/css/pages/cards-advance.css') }}" />
 
         <!-- Helpers -->
-        <script src="{{ asset('vendor/imageupload/assets/vendor/js/helpers.js') }}"></script>
+        <script src="{{ asset('vendor/imageupload/vendor/js/helpers.js') }}"></script>
 
         <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
         <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
-        {{-- <script src="{{ asset('vendor/imageupload/assets/vendor/js/template-customizer.js') }}"></script> --}}
+        {{-- <script src="{{ asset('vendor/imageupload/vendor/js/template-customizer.js') }}"></script> --}}
         <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-        <script src="{{ asset('vendor/imageupload/assets/js/config.js') }}"></script>
+        <script src="{{ asset('vendor/imageupload/js/config.js') }}"></script>
 
     </head>

@@ -1,4 +1,3 @@
-@extends('admin.app')
 @extends('imageupload::admin.app')
 @section('title', 'Image Upload Package')
 @section('content')

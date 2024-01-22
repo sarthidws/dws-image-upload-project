@@ -2,7 +2,7 @@
     <div class="app-brand demo ">
         <a href="" class="app-brand-link">
             <span class="avatar">
-                <img src="{{ asset('assets/img/avatars/dws_logo.png') }}" alt="logo" class="h-auto ">
+                <img src="{{ asset('vendor/imageupload/img/avatars/dws_logo.png') }}" alt="logo" class="h-auto ">
             </span>
             <span class="app-brand-text demo menu-text fw-bold">{{ config('app.name') }}</span>
         </a>

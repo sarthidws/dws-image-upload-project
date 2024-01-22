@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en" class="light-style layout-navbar-fixed layout-menu-fixed " dir="ltr" data-theme="theme-default"
-    data-assets-path="❴❴ asset('vendor/imageupload/assets/') ❵❵" data-template="vertical-menu-template">
+    data-assets-path="❴❴ asset('vendor/imageupload/') ❵❵" data-template="vertical-menu-template">
 
 <!-- Include Head -->
 @include('imageupload::admin.layout.head')
