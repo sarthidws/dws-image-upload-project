@@ -19,7 +19,7 @@ class ImageUploadProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $this->loadRoutesFrom(__DIR__ . '/Http/routes.php');
+        $this->loadRoutesFrom(__DIR__ . '/Http/routes/web.php');
 
         // Load migrations
         $this->loadMigrationsFrom(__DIR__ . '/Database/migrations');
