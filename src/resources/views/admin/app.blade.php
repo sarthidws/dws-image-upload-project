@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 
 <html lang="en" class="light-style layout-navbar-fixed layout-menu-fixed " dir="ltr" data-theme="theme-default"
-    data-assets-path="❴❴ asset('assets/') ❵❵" data-template="vertical-menu-template">
+    data-assets-path="❴❴ asset('vendor/imageupload/assets/') ❵❵" data-template="vertical-menu-template">
 
 <!-- Include Head -->
-@include('admin.layout.head')
+@include('imageupload::admin.layout.head')
+
 
 <body>
     <!--  Layout wrapper -->
@@ -51,7 +52,8 @@
     <!-- / Layout wrapper -->
 
     <!-- Include Scripts -->
-    @include('admin.layout.foot')
+    @include('imageupload::admin.layout.foot')
+
 
 </body>
 
