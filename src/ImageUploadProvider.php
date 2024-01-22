@@ -25,7 +25,7 @@ class ImageUploadProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__ . '/Database/migrations');
 
         // Load views
-        $this->loadViewsFrom(__DIR__ . '/Resources/views', 'imageupload');
+        $this->loadViewsFrom(__DIR__ . '/resources/views', 'imageupload');
 
         // Publish configuration file
         $this->publishes(
@@ -38,7 +38,7 @@ class ImageUploadProvider extends ServiceProvider
         // Publish views
         $this->publishes(
             [
-                __DIR__ . '/Resources/views' => resource_path('views/vendor/imageupload'),
+                __DIR__ . '/resources/views' => resource_path('views/vendor/imageupload'),
             ],
             'views',
         );
@@ -46,7 +46,7 @@ class ImageUploadProvider extends ServiceProvider
         // Optionally, you might want to publish assets
         $this->publishes(
             [
-                __DIR__ . '/Resources/assets' => public_path('vendor/imageupload'),
+                __DIR__ . '/resources/assets' => public_path('vendor/imageupload'),
             ],
             'public',
         );

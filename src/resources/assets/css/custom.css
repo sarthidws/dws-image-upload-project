@@ -1,0 +1,21 @@
+button.accordion-button.cust-accord {
+    padding: 0;
+    font-size: 18px;
+}
+.draggable-item-set {
+    color:#ffffff;
+    opacity: 1; /* Reduce the opacity of the item during drag */
+    background-color: #7367f0; /* Change the background color of the item */
+    border: 1px solid #ccc; /* Add a border to the item */
+    box-shadow: 0 .125rem .25rem rgba(165,163,174,.3);
+}
+
+#jstree a.jstree-anchor.jstree-clicked {
+    padding-right: 0px !important;
+}
+#jstree .delete-child-node {
+    margin-left: 5px !important;
+}
+.is-invalid.invalid-feedback {
+    display: block;
+}
